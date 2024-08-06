@@ -13,7 +13,7 @@ Each project is aimed at solving real-world data problems and exploring differen
 - **Case Studies:** In-depth case studies on specific datasets, including detailed analysis and insights.
 - **Practice Exercises:** Smaller exercises and practice problems to sharpen Pandas skills.
 
-## Project-1
+## Project-1 (Basics)
 
 This project demonstrates various fundamental operations using the Pandas library in Python. 
 <br>
@@ -53,7 +53,7 @@ Each key maps to a list of corresponding values.
 22. Sorts the DataFrame based on the 'Marks' and 'Gender' columns.
 23. Filters and retrieves the names and marks of female students.
 
-## Case Study - 1
+## Case Study - 1 (Ecommerce Purchases)
 
 ### Dataset Description
 
@@ -90,7 +90,7 @@ Each key maps to a list of corresponding values.
 14. Counting how many people have a credit card that expires in 2020.
 15. Identifying the top 5 most popular email providers among the purchasers.
 
-## Case Study - 2
+## Case Study - 2 (San Francisco Salaries)
 
 ### Dataset Description
 
