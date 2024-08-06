@@ -89,3 +89,45 @@ Each key maps to a list of corresponding values.
 13. Counting how many people made purchases in the AM and PM.
 14. Counting how many people have a credit card that expires in 2020.
 15. Identifying the top 5 most popular email providers among the purchasers.
+
+## Case Study - 2
+
+### Dataset Description
+
+- `Id`: A unique identifier for each employee.
+- `EmployeeName`: The name of the employee.
+- `JobTitle`: The job title of the employee.
+- `BasePay`: The base salary of the employee.
+- `OvertimePay`: The overtime pay received by the employee.
+- `OtherPay`: Any other type of pay received by the employee.
+- `Benefits`: The benefits received by the employee (if available).
+- `TotalPay`: The total pay received by the employee (BasePay + OvertimePay + OtherPay).
+- `TotalPayBenefits`: The total pay including benefits received by the employee.
+- `Year`: The year the pay information is from.
+- `Notes`: Any additional notes related to the employee or the pay information.
+- `Agency`: The agency the employee works for.
+- `Status`: The employment status (e.g., PT for part-time).
+
+### Concepts and Operations
+
+1. Display the first 10 rows of the dataset to get an overview of the data.
+2. Display the last 10 rows of the dataset to see the end portion of the data.
+3. Get the number of rows and columns in the dataset using the `.shape` attribute.
+4. Use the `.info()` method to get a concise summary of the dataset.
+5. Check for missing values in the dataset using the `.isnull().sum()` method.
+6. Remove the 'ID', 'Notes', 'Agency', and 'Status' columns using the `.drop()` method.
+7. Get descriptive statistics of the dataset using the `.describe()` method.
+8. Find the top 5 most frequent employee names using the `.value_counts()` method on the 'EmployeeName' column.
+9. Determine the number of unique job titles using the `.nunique()` method on the 'JobTitle' column.
+10. Find the number of job titles containing the word 'Captain' using the `.str.contains()` method on the 'JobTitle' column.
+11. Filter and display all employee names who work in the fire department using the `.str.contains()`.
+12. Calculate the minimum, maximum, and average base pay using the `.min()`, `.max()`, and `.mean()` methods on the 'BasePay' column.
+13. Replace 'Not Provided' values in the 'EmployeeName' column with `NaN` using the `.replace()` method.
+14. Remove rows that have 2 or more missing values.
+15. Retrieve the job title of the employee named 'ALBERT PARDINI' by filtering the dataset.
+16. Calculate the total pay including benefits for 'ALBERT PARDINI'.
+17. Identify and display the name of the person with the highest base pay.
+18. Calculate the average base pay of all employees for each year using the `.groupby()` method.
+19. Calculate the average base pay of all employees for each job title using the `.groupby()` method.
+20. Calculate the average base pay of employees with the job title 'ACCOUNTANT'.
+21. Identify the top 5 most common job titles using the `.value_counts()` method on the 'JobTitle' column.
