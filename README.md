@@ -57,20 +57,22 @@ Each key maps to a list of corresponding values.
 
 ### Dataset Description
 
-- `Address`: The address of the purchaser.
-- `Lot`: Lot number associated with the purchase.
-- `AM or PM`: Indicates whether the purchase was made in the AM or PM.
-- `Browser Info`: Information about the browser used to make the purchase.
-- `Company`: The company associated with the purchase.
-- `Credit Card`: The credit card number used for the purchase.
-- `CC Exp Date`: Expiration date of the credit card.
-- `CC Security Code`: Security code of the credit card.
-- `CC Provider`: Provider of the credit card.
-- `Email`: Email address of the purchaser.
-- `Job`: Job title of the purchaser.
-- `IP Address`: IP address from which the purchase was made.
-- `Language`: Language preference of the purchaser.
-- `Purchase Price`: The price of the purchase.
+| Column Name        | Description                                              |
+|--------------------|----------------------------------------------------------|
+| `Address`          | The address of the purchaser                             |
+| `Lot`              | Lot number associated with the purchase                  |
+| `AM or PM`         | Indicates whether the purchase was made in the AM or PM  |
+| `Browser Info`     | Information about the browser used to make the purchase  |
+| `Company`          | The company associated with the purchase                 |
+| `Credit Card`      | The credit card number used for the purchase             |
+| `CC Exp Date`      | Expiration date of the credit card                       |
+| `CC Security Code` | Security code of the credit card                         |
+| `CC Provider`      | Provider of the credit card                              |
+| `Email`            | Email address of the purchaser                           |
+| `Job`              | Job title of the purchaser                               |
+| `IP Address`       | IP address from which the purchase was made              |
+| `Language`         | Language preference of the purchaser                     |
+| `Purchase Price`   | The price of the purchase                                |
 
 ### Concepts and Operations
 
@@ -94,19 +96,21 @@ Each key maps to a list of corresponding values.
 
 ### Dataset Description
 
-- `Id`: A unique identifier for each employee.
-- `EmployeeName`: The name of the employee.
-- `JobTitle`: The job title of the employee.
-- `BasePay`: The base salary of the employee.
-- `OvertimePay`: The overtime pay received by the employee.
-- `OtherPay`: Any other type of pay received by the employee.
-- `Benefits`: The benefits received by the employee (if available).
-- `TotalPay`: The total pay received by the employee (BasePay + OvertimePay + OtherPay).
-- `TotalPayBenefits`: The total pay including benefits received by the employee.
-- `Year`: The year the pay information is from.
-- `Notes`: Any additional notes related to the employee or the pay information.
-- `Agency`: The agency the employee works for.
-- `Status`: The employment status (e.g., PT for part-time).
+| Column Name        | Description                                                         |
+|--------------------|---------------------------------------------------------------------|
+| `Id`               | A unique identifier for each employee                               |
+| `EmployeeName`     | The name of the employee                                            |
+| `JobTitle`         | The job title of the employee                                       |
+| `BasePay`          | The base salary of the employee                                     |
+| `OvertimePay`      | The overtime pay received by the employee                           |
+| `OtherPay`         | Any other type of pay received by the employee                      |
+| `Benefits`         | The benefits received by the employee (if available)                |
+| `TotalPay`         | The total pay received by the employee (BasePay + OvertimePay + OtherPay) |
+| `TotalPayBenefits` | The total pay including benefits received by the employee           |
+| `Year`             | The year the pay information is from                                |
+| `Notes`            | Any additional notes related to the employee or the pay information |
+| `Agency`           | The agency the employee works for                                   |
+| `Status`           | The employment status (e.g., PT for part-time)                      |
 
 ### Concepts and Operations
 
@@ -131,3 +135,50 @@ Each key maps to a list of corresponding values.
 19. Calculate the average base pay of all employees for each job title using the `.groupby()` method.
 20. Calculate the average base pay of employees with the job title 'ACCOUNTANT'.
 21. Identify the top 5 most common job titles using the `.value_counts()` method on the 'JobTitle' column.
+
+## Case Study - 3 (Adult Income)
+
+### Dataset Description
+
+| Column Name        | Description                                               |
+|--------------------|-----------------------------------------------------------|
+| `age`              | Age of the individual                                     |
+| `workclass`        | Work classification of the individual                     |
+| `fnlwgt`           | Final weight, a measure used by the census bureau         |
+| `education`        | Education level of the individual                         |
+| `educational-num`  | Number of years of education                              |
+| `marital-status`   | Marital status of the individual                          |
+| `occupation`       | Occupation of the individual                              |
+| `relationship`     | Relationship status within the family                     |
+| `race`             | Race of the individual                                    |
+| `gender`           | Gender of the individual                                  |
+| `capital-gain`     | Capital gain of the individual                            |
+| `capital-loss`     | Capital loss of the individual                            |
+| `hours-per-week`   | Hours worked per week                                     |
+| `native-country`   | Country of origin                                         |
+| `income`           | Income bracket of the individual (`<=50K` or `>50K`)      |
+
+### Concepts and Operations
+
+1. Import dataset
+2. Top 10 rows
+3. Bottom 10 rows
+4. Shape of dataset
+5. Information about dataset
+6. Fetch random samples from the dataset (50%)
+7. Check null values
+8. Plot heatmap on null values
+9. Perform data cleaning (replace '?' with 'NaN')
+10. Plot heatmap on Null Values
+11. Drop all the missing values
+12. Check for duplicate data and drop them
+13. Statistics about Dataframe
+14. Drop the columns educational-num, capital-gain and capital-loss
+15. What is the distribution of age column?
+16. Find total number of persons having age between 17 to 48 (Inclusive) using Between Method
+17. What is the distribution of Workclass column?
+18. How many persons having Bachelors or Masters Degree?
+19. Replace Income values ['<=50K', '>50K'] with 0 and 1
+20. Which Workclass gets the highest salary?
+21. Who has better chance to get salary >50K, male or female?
+22. Convert workclass column's datatype to category datatype
