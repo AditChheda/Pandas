@@ -182,3 +182,42 @@ Each key maps to a list of corresponding values.
 20. Which Workclass gets the highest salary?
 21. Who has better chance to get salary >50K, male or female?
 22. Convert workclass column's datatype to category datatype
+
+## Case Study - 4 (Titanic)
+
+### Dataset Description
+
+| Column Name  | Description                                             |
+|--------------|---------------------------------------------------------|
+| `PassengerId`  | Unique identifier for each passenger.                   |
+| `Survived`     | Survival status (0 = No, 1 = Yes).                      |
+| `Pclass`       | Ticket class (1 = 1st, 2 = 2nd, 3 = 3rd).               |
+| `Name`         | Full name of the passenger.                             |
+| `Sex`          | Gender of the passenger (male or female).               |
+| `Age`          | Age of the passenger in years.                          |
+| `SibSp`        | Number of siblings or spouses aboard the Titanic.       |
+| `Parch`        | Number of parents or children aboard the Titanic.       |
+| `Ticket`       | Ticket number.                                          |
+| `Fare`         | Passenger fare.                                         |
+| `Cabin`        | Cabin number.                                           |
+| `Embarked`     | Port of Embarkation (C = Cherbourg, Q = Queenstown, S = Southampton). |
+
+### Concepts and Operations
+
+1. Import Dataset
+2. Top 5 rows
+3. Bottom 3 rows
+4. Find shape of Dataset
+5. Information of dataset
+6. Statistics of dataset
+7. Data Filtering
+8. Check null values
+9. Drop the column
+10. Handle Missing Values
+11. Categorical Data Encoding
+12. How many people survived and how many died?
+13. How many passengers were in First Class, Second Class and Third Class
+14. Number of Male and Female passengers
+15. Who has better chance of survival Male or Female? 
+16. Which passenger class has better chance of survival (First, Second or Third Class)
+17. Feature Engineering
