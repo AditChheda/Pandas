@@ -221,3 +221,42 @@ Each key maps to a list of corresponding values.
 15. Who has better chance of survival Male or Female? 
 16. Which passenger class has better chance of survival (First, Second or Third Class)
 17. Feature Engineering
+
+## Case Study - 5 (Google Play Store Apps)
+
+### Dataset Description
+
+| **Column Name**   | **Description**                                                                                                     |
+|-------------------|---------------------------------------------------------------------------------------------------------------------|
+| `App`             | The name of the application.                                                                                        |
+| `Category`        | The category under which the app is listed on the Google Play Store.                                                |
+| `Rating`          | The user rating of the app (out of 5).                                                                              |
+| `Reviews`         | The number of user reviews for the app.                                                                             |
+| `Size`            | The size of the application, typically in megabytes (M).                                                            |
+| `Installs`        | The number of installations of the app, represented as a range (e.g., "10,000+").                                   |
+| `Type`            | The type of the app (Free or Paid).                                                                                 |
+| `Price`           | The price of the app in USD (if the app is paid); otherwise, it is 0 for free apps.                                 |
+| `Content Rating`  | The age group for which the app is suitable (e.g., "Everyone", "Teen").                                             |
+| `Genres`          | The genre or genres under which the app falls (e.g., "Art & Design", "Pretend Play").                               |
+| `Last Updated`    | The date when the app was last updated on the Play Store.                                                           |
+| `Current Ver`     | The current version of the app.                                                                                     |
+| `Android Ver`     | The minimum Android version required to run the app.                                                                |
+
+### Concepts and Operations
+
+1. Top 5 rows
+2. Bottom 5 rows
+3. Shape of Dataset
+4. Information about Dataset
+5. Statistics about dataframe
+6. Total number of app titles contain astrology
+7. Find average app rating
+8. Find total number of unique category
+9. Which Category gets the highest average rating?
+10. Find total number of apps having 5 star rating
+11. Find average value of reviews
+12. Find total number of Free and Paid Apps
+13. Which app has maximum reviews?
+14. Display Top 5 Apps having highest reviews
+15. Find average rating of free and paid apps
+16. Display top 5 apps having maximum installs
