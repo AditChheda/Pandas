@@ -260,3 +260,46 @@ Each key maps to a list of corresponding values.
 14. Display Top 5 Apps having highest reviews
 15. Find average rating of free and paid apps
 16. Display top 5 apps having maximum installs
+
+## Case Study - 6 (Udemy Courses)
+
+### Dataset Description
+
+| **Column Name**          | **Description**                                                                 |
+|--------------------------|---------------------------------------------------------------------------------|
+| `course_id`              | Unique identifier for each course.                                              |
+| `course_title`           | The title of the course.                                                        |
+| `url`                    | Link to the course page on Udemy.                                               |
+| `is_paid`                | Boolean value indicating whether the course is paid (True) or free (False).      |
+| `price`                  | The price of the course in USD.                                                 |
+| `num_subscribers`        | The number of subscribers enrolled in the course.                               |
+| `num_reviews`            | The number of reviews the course has received.                                  |
+| `num_lectures`           | The total number of lectures included in the course.                            |
+| `level`                  | The difficulty level of the course (e.g., All Levels, Intermediate Level).       |
+| `content_duration`       | The total duration of the course content in hours.                              |
+| `published_timestamp`    | The date and time when the course was published.                                |
+| `subject`                | The subject category of the course (e.g., Business Finance).                    |
+
+### Concepts and Operations
+
+1. Top 3 rows
+2. Bottom 3 rows
+3. Shape of Dataframe
+4. Information about Dataframe
+5. Statistics about Dataframe
+6. Check null values
+7. Check for duplicate data and drop them
+8. Find out number of courses per subjects
+9. For which levels, Udemy Courses provides the courses
+10. Display the count of Paid and Free Courses
+11. Which course has more lectures (free or paid)?
+12. Which courses have a higher number of subscribers Free or Paid?
+13. Which Level has the highest number of subscribers?
+14. Find most popular course title
+15. Display 10 most popular courses as per number of subscribers
+16. Find the course which is having the highest number of reviews.
+17. Does Price affect number of reviews?
+18. Find total number of courses related to python
+19. Display 10 most popular python courses as per number of subscribers
+20. In which year the highest number of courses were posted?
+21. Display Category-wise count of posted subjects (year-wise)
