@@ -303,3 +303,36 @@ Each key maps to a list of corresponding values.
 19. Display 10 most popular python courses as per number of subscribers
 20. In which year the highest number of courses were posted?
 21. Display Category-wise count of posted subjects (year-wise)
+
+## Case Study - 7 (Top 5000 Youtube Channels)
+
+### Dataset Description
+
+| **Column Name** | **Description**                                                          |
+|-----------------|--------------------------------------------------------------------------|
+| `Rank`        | The position of the channel in the overall ranking.                      |
+| `Grade`       | The grade assigned to the channel based on its performance (e.g., A++, B+). |
+| `Channel Name`| The name of the YouTube channel.                                         |
+| `Video Uploads`| The total number of videos uploaded by the channel.                     |
+| `Subscribers` | The number of subscribers the channel has.                               |
+| `Video Views` | The total number of views across all videos on the channel.              |
+
+### Concepts and Operations
+
+1. Display all rows except the last 5 rows using head() method
+2. Display all rows except the first 5 rows using tail() method
+3. Shape of Dataframe
+4. Information about Dataframe
+5. Statistics about Dataframe
+6. Data cleaning (replace '--' to NaN)
+7. Check null values
+8. Data cleaning (Rank Column)
+9. Data Cleaning (Video Uploads & Subscribers)
+10. Data Cleaning (Grade Column)
+11. Find Average views for each channel
+12. Find out top five channels with maximum number of video uploads
+13. Find Correlation Matrix
+14. Which Grade has a maximum number of video uploads?
+15. Which Grade has the highest average views?
+16. Which Grade has the highest number of Subscribers?
+17. Which Grade has the highest Video Views?
