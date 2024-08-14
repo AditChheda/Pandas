@@ -381,3 +381,36 @@ Each key maps to a list of corresponding values.
 21. Count number of action movies
 22. Find Unique values from Genre
 23. How many films of each genre were made?
+
+## Case Study - 9 (Forest Fires In Brazil)
+
+### Dataset Description
+
+| **Column**  | **Description**                                                        |
+|---------|--------------------------------------------------------------------|
+| `year`   | The year of the event (e.g., 1998, 1999, 2000).                    |
+| `state`  | The state where the event occurred (e.g., Acre).                   |
+| `month`  | The month in which the event took place (e.g., Janeiro).           |
+| `number` | The recorded number of events during that time period.             |
+| `date`   | The specific date of the event in `YYYY-MM-DD` format.             |
+
+### Concepts and Operations
+
+1. Top 3 rows
+2. Last 3 rows
+3. Shape of Dataframe
+4. Information about Dataframe
+5. Check for duplicate data and drop them
+6. Check null values
+7. Statistics about Dataframe
+8. Rename Month Names to English
+9. Total number of fires registered
+10. In which month maximum number of forest fires were reported?
+11. In which year, maximum number of forest fires were reported?
+12. In which state maximum number of forest fires were reported?
+13. Find total number of fires that were reported in Amazonas
+14. Display number of fires that were reported in Amazonas (Year-Wise)
+15. Display number of fires that were reported in Amazonas (Day-wise)
+16. Find total number of fires that were reported in 2015 and Visualize Data based on each 'month'.
+17. Find average number of fires that were reported from highest to lowest (state-wise)
+18. Find the state names where fires were reported in 'dec' month
