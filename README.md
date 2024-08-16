@@ -414,3 +414,46 @@ Each key maps to a list of corresponding values.
 16. Find total number of fires that were reported in 2015 and Visualize Data based on each 'month'.
 17. Find average number of fires that were reported from highest to lowest (state-wise)
 18. Find the state names where fires were reported in 'dec' month
+
+## Case Study - 10 (Heart Disease)
+
+### Dataset Description
+
+| **Column**   | **Description**                                                                                   |
+|----------|-----------------------------------------------------------------------------------------------|
+| `age`    | Age of the individual.                                                                         |
+| `sex`    | Sex of the individual (1 = male, 0 = female).                                                  |
+| `cp`     | Chest pain type (0 = typical angina, 1 = atypical angina, 2 = non-anginal pain, 3 = asymptomatic). |
+| `trestbps` | Resting blood pressure (in mm Hg).                                                          |
+| `chol`   | Serum cholesterol level (in mg/dl).                                                            |
+| `fbs`    | Fasting blood sugar > 120 mg/dl (1 = true, 0 = false).                                         |
+| `restecg` | Resting electrocardiographic results (0 = normal, 1 = having ST-T wave abnormality, 2 = showing probable or definite left ventricular hypertrophy). |
+| `thalach` | Maximum heart rate achieved.                                                                  |
+| `exang`  | Exercise-induced angina (1 = yes, 0 = no).                                                     |
+| `oldpeak` | ST depression induced by exercise relative to rest.                                           |
+| `slope`  | The slope of the peak exercise ST segment (0 = upsloping, 1 = flat, 2 = downsloping).          |
+| `ca`     | Number of major vessels (0-3) colored by fluoroscopy.                                          |
+| `thal`   | Thalassemia (1 = normal, 2 = fixed defect, 3 = reversible defect).                             |
+| `target` | Target variable (1 = presence of heart disease, 0 = absence of heart disease).                |
+
+### Concepts and Operations
+
+1. Display Top 5 Rows of The Dataset
+2. Check The Last 5 Rows of The Dataset
+3. Find Shape of Our Dataset (Number of Rows And Number of Columns)
+4. Get Information About Our Dataset
+5. Check Null Values In The Dataset
+6. Check For Duplicate Data and Drop Them
+7. Get Overall Statistics About The Dataset
+8. Draw Correlation Matrix 
+9. How Many People Have Heart Disease, And How Many Don't Have Heart Disease In This Dataset?
+10. Find Count of  Male & Female in this Dataset
+11. Find Gender Distribution According to The Target Variable
+12. Check Age Distribution In The Dataset
+13. Check Chest Pain Type
+14. Show The Chest Pain Distribution As Per Target Variable
+15. Show Fasting Blood Sugar Distribution According To Target Variable
+16.  Check Resting Blood Pressure Distribution
+17. Compare Resting Blood Pressure As Per Sex Column
+18. Show Distribution of Serum cholesterol
+19. Plot Continuous Variables
