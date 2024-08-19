@@ -53,6 +53,50 @@ Each key maps to a list of corresponding values.
 22. Sorts the DataFrame based on the 'Marks' and 'Gender' columns.
 23. Filters and retrieves the names and marks of female students.
 
+## Project-2 (Superstore)
+
+### Dataset Description
+
+| **Column Name**     | **Description**                                                      |
+|---------------------|----------------------------------------------------------------------|
+| `Row ID`          | A unique identifier for each row in the dataset.                     |
+| `Order ID`        | A unique identifier for each order placed.                           |
+| `Order Date`      | The date when the order was placed.                                  |
+| `Ship Date`       | The date when the order was shipped.                                 |
+| `Ship Mode`       | The method used to ship the order (e.g., Second Class).              |
+| `Customer ID`     | A unique identifier for each customer.                               |
+| `Customer Name`   | The name of the customer who placed the order.                       |
+| `Segment`         | The segment of the customer (e.g., Consumer, Corporate).             |
+| `Country`         | The country where the order was shipped.                             |
+| `City`            | The city where the order was shipped.                                |
+| `State`           | The State where the order was shipped.                               |
+| `Postal Code`     | The postal code of the shipping address.                             |
+| `Region`          | The region where the order was shipped (e.g., South, West).          |
+| `Product ID`      | A unique identifier for each product.                                |
+| `Category`        | The category of the product (e.g., Furniture, Office Supplies).      |
+| `Sub-Category`    | The sub-category of the product (e.g., Bookcases, Chairs).           |
+| `Product Name`    | The name of the product.                                             |
+| `Sales`           | The sales amount for the order.                                      |
+| `Quantity`        | The quantity of the product ordered.                                 |
+| `Discount`        | The discount applied to the order.                                   |
+| `Profit`          | The profit earned from the order.                                    |
+
+### Concepts and Operations
+
+1. Display Top 5 rows
+2. Display Last 5 rows
+3. Find Shape of Dataframe
+4. Get Information about Dataframe
+5. Check Null Values
+6. Check for Duplicates
+7. Statistics about Dataframe
+8. Drop Unnecessary Columns
+9. Hypothesis-1: Technology products have the highest profit margin compared to other product categories.
+10. Hypothesis-2: The East region has the highest sales compared to other regions.
+11. Hypothesis-3: Sales are higher during certain months of the year.
+12. Hypothesis-4: Orders with same-day shipping have the lowest rate of returned products.
+13. Hypothesis-5: The company's profit is more on weekdays than on weekends.
+
 ## Case Study - 1 (Ecommerce Purchases)
 
 ### Dataset Description
